@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forsquare App</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width ,initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<link href="styles.css" rel="stylesheet" type="text/css">
+    
+</head>
+<body onload="pageLoaded()">
+    
+
+    <div id = "content">
+        <center><h4>Geolocation</h4></center>
+        <div id = "search_view">
+            <div id = "search_bar">
+                <input id = "search_input" type = "text" />
+                <button onclick = "loadAPIs()">Search</button>
+            </div>
+            <div id = "information">
+                <center> SEARCH Address In Geolocation</center>
+            </div>
+        </div>
+        <div id = "results_view">
+            <p>Results view</p>
+            <div class=container>
+                <div class="card-block" id="formatted-address"></div>
+                <div class="card-block" id="address-components"></div>
+                <div class="card-block" id="geometry"></div>
+                <div class="card-block" id="types"></div>
+            </div>
+        </div>
+      
+    </div>
+    
+
+
+ 
+<script src="app.js"></script>   
+</body>
+</html>

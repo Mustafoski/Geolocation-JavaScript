@@ -1,0 +1,31 @@
+#content
+{
+    width:1000px;
+    margin:0 auto;
+}
+#search_view
+ {
+
+ }
+#results_view
+{
+
+}
+#search_input
+{
+    width: 80%;
+    margin-left: 10px;
+}
+#search_bar
+{
+    margin-top: 20px;
+}
+#information
+{
+    margin-top: 40px;
+}
+
+
+body{
+    background-color:rgb(192,192,192);
+}
